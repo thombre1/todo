@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="flex flex-col items-center h-screen text-white bg-slate-950 font-mono font-bold">
+   <div class="flex justify-center">
+    
+    <div id="main" class="flex flex-col justify-center items-center shadow-sm border-black p-4 m-8 bg-slate-700 rounded-sm">
+        <div id="div-1" class="mb-4"><h1 class="font-black text-4xl">To Do App</h1></div>
+        <div id="div-2" class=" ">
+            <input id="todo-input" type="text" placeholder="Add new Task..." class="text-white mb-2 items-center justify-center p-2 w-72 rounded-sm border-black bg-slate-900">
+            <button id="add-task-btn" class="p-2 w-36 bg-green-600 hover:bg-green-700 rounded-sm">Add Task</button>
+        </div>  
+        <ul id="todo-list" class="grid grid-cols-1 bg-slate-900 text-slate-200 p-2 w-full rounded-sm"> 
+        </ul>
+    </div>
+   </div>
+    <script src="./script.js"></script>
+</body>
+<!-- margin needs to be auto while the body has 100% vph -->
+<div class="grid grid-flow-row grid-rows-1 mt-auto font-mono bg-slate-900"><footer class="flex justify-center">Made by: <span class="font-bold"> Aditya Thombre</span></footer></div>
+</html>
